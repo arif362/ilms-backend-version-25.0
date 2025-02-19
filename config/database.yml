@@ -1,0 +1,22 @@
+default: &default
+    adapter: mysql2
+    encoding: utf8
+    pool: <%= ENV.fetch("DATABASE_POOL") { 5 } %>
+    min_messages: warning
+    timeout: 5000
+    hostname: <%= ENV["DATABASE_HOST"] %>
+    database: <%= ENV["DATABASE_NAME"] %>
+    username: <%= ENV["DATABASE_USER_NAME"] %>
+    password: <%= ENV["DATABASE_PASSWORD"] %>
+
+development:
+    <<: *default
+
+staging:
+    <<: *default
+
+test:
+    <<: *default
+
+production:
+    <<: *default

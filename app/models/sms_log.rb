@@ -1,0 +1,3 @@
+class SmsLog < ApplicationRecord
+
+end

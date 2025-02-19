@@ -1,0 +1,130 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   "true": "foo"
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  Damage Request Created: 'Damage Request Created'
+  You have successfully created damaged request: 'You have successfully created damaged request'
+  successfully requested: 'successfully requested'
+  Order placed: 'Order placed.'
+  Order placed Please wait for the library confirmation: 'Order placed. Please wait for the library confirmation.'
+  Order Confirmed: 'Order Confirmed.'
+  Please make your payment: 'Please make your payment.'
+  Ready to pickup: 'Ready to pick up'
+  Your order is ready for pickup: 'Your order is ready for pickup'
+  Order collected: 'Order collected.'
+  Order rejected: 'Order rejected.'
+  Order was collected by delivery company: 'Order was collected by delivery company.'
+  Order delivered: "Order delivered."
+  Order was delivered to the delivery company: "Order was delivered to the delivery company."
+  Order cancelled: "Order cancelled"
+  You have successfully requested as Borrowed: "You have successfully requested as Borrowed"
+  You have successfully requested as Returned: "You have successfully requested as returned"
+  You have successfully requested as Lost: "You have successfully requested as lost"
+  You have successfully requested as Damaged Returned: "You have successfully requested as Damaged returned"
+  invoice: "invoice"
+  Please pay your due invoice amount: "Please pay your due invoice amount"
+  Library Card Request Sent: "Library Card Request Sent"
+  Your library card request has been sent to library please wait for the approval: "Your library card request has been sent to library. please wait for the approval"
+  New card request: "New card request"
+  New card request to your library: "New card request to your library"
+  Card printed: "Card printed."
+  Card is printed: "Card is printed."
+  Request accepted: "Request accepted"
+  Your library card request has been accepted: "Your library card request has been accepted"
+  Request rejected: "Request rejected"
+  Your library card request has been rejected: "Your library card request has been rejected"
+  Card pickup: "Card pickup"
+  Card is ready and ready for your pickup: "Card is ready and ready for your pickup"
+  Card delivered: "Card delivered"
+  Card is on the way for delivery: "Card is on the way for delivery."
+  Request cancelled: "Request cancelled"
+  Card request is cancelled: "Card request is cancelled."
+  Card is delivered: "Card is delivered"
+  Card delivered to library: "Card delivered to library."
+  Request hold: "Request hold"
+  Card request is on hold: "Card request is on hold"
+  request sent to library: "request sent to library"
+  Your security money request has been sent to library please wait for the approval: "Your security money request has been sent to library please wait for the approval"
+  Security money request approved: "Security money request approved"
+  Your security money request has been approved: "Your security money request has been approved"
+  Your security money request has been rejected: "Your security money request has been rejected"
+  Transfer Request Placed: "Transfer Request Placed"
+  Your Book Transfer Request Placed please wait for the approval: "Your Book Transfer Request Placed please wait for the approval"
+  Transfer Request Approved: "Transfer Request Approved"
+  Your Book Transfer Request is Approved: "Your Book Transfer Request is Approved"
+  Book Transfer Request rejected: "Book Transfer Request rejected"
+  Your Book Transfer Request has been rejected: "Your Book Transfer Request has been rejected"
+  Book Transfer Request cancelled: "Book Transfer Request cancelled"
+  Your Book Transfer Request has been cancelled: "Your Book Transfer Request has been cancelled"
+  Requested book arrived: "Your Book Transfer Request has been cancelled"
+  Your Book Transfer Request arrived to library: "Your Book Transfer Request arrived to library"
+  Book Demand Placed: "Book Demand Placed."
+  Book Demand Placed successfully: "Book Demand Placed successfully"
+  Gallery album requests: "Gallery album requests"
+  Request Placed To Add Gallery Album: "Request Placed To Add Gallery Album"
+  Account Deletion requests: "Account Deletion requests"
+  Submitted Account Deletion requests: "Submitted Account Deletion requests"
+  Book Review: "Book Review"
+  Submitted Book Review: "Submitted Book Review"
+  Local Event Is Created Successfully: "Local Event Is Created Successfully"
+  Local Event Is Created: "Local Event Is Created"
+  Your Membership Request Submitted: "Your Membership Request Submitted"
+  Your have successfully Submitted membership: "Your have successfully Submitted membership"
+  Your Membership Request Approved: "Your Membership Request Approved"
+  Your membership request has been Approved, Please complete your payment process: "Your membership request has been Approved, Please complete your payment process"
+  Your Membership Request Rejected: "Your Membership Request Rejected"
+  Your membership Request Has Been Rejected: "Your membership Request Has Been Rejected"
+  Your Membership Request Require Correction: "Your Membership Request Require Correction"
+  Your Membership Request Details Require Correction: "Your Membership Request Details Require Correction"
+  Membership Request Correction Submitted: "Membership Request Correction Submitted"
+  Your Membership Request Correction successfully Submitted: "Your Membership Request Correction successfully Submitted"
+  Congratulation, Your Now Member: "Congratulation, Your Now Member"
+  Congratulation, Your Membership Request Successfully Completed: "Congratulation, Your Membership Request Successfully Completed"
+  Membership Request Cancelled: "Membership Request Cancelled"
+  Membership Request Has Been Cancelled: "Membership Request Has Been Cancelled"
+  Event Started In Your Library: "Event Created In Your Library"
+  Event Is Going live In Your Library: "Event Is Going live In Your Library"
+  Global Event Is Started: "Global Event Is Started"
+  Global Event Is Started In All Library: "Global Event Is Started In All Library"
+  Your Event Registration Request Submitted: "Your Event Registration Request Submitted"
+  Your have successfully Submitted membership, your request need approval: "Your have successfully Submitted membership, your request need approval"
+  Your Event Registration Approved: "Your Event Registration Approved"
+  Your event registration request has been Approved: "Your event registration request has been Approved"
+  Your Event Registration Request Rejected: "Your Event Registration Request Rejected"
+  Your event registration Request Has Been Rejected: "Your event registration Request Has Been Rejected"
+  Your Event Registration Request canceled: "Your Event Registration Request canceled"
+  Your Event Registration Successfully canceled: "Your Event Registration Successfully canceled"
+  The possible book availability date is: "The possible book availability date is"
+  The possible book availability date is %{date}: "The possible book availability date is %{date}"
+  Possible date will be decided later: "Possible date will be decided later"
+  Return Order placed: "Return Order placed"
+  Return Order placed Please wait for the delivery boy: "Return Order placed Please wait for the delivery boy"

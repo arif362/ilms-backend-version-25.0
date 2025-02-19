@@ -1,0 +1,17 @@
+# frozen_string_literal: true
+
+module Lms
+  module Entities
+    class LibraryLocations < Grape::Entity
+      expose :id
+      expose :code
+      expose :name
+      expose :location_type
+      expose :created_by_id
+      expose :updated_by_id
+      expose :deleted_at
+      expose :created_at
+      expose :updated_at
+    end
+  end
+end

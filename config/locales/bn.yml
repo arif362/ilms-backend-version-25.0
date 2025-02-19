@@ -1,0 +1,109 @@
+bn:
+  ভাষা: বাংলা
+
+  number:
+    format:
+      delimiter: ","
+      separator: "."
+      precision: 2
+      significant: false
+      strip_insignificant_zeros: false
+
+
+  Damage Request Created: 'ক্ষতির অনুরোধ তৈরি করা হয়েছে'
+  You have successfully created damaged request: আপনি সফলভাবে ক্ষতিগ্রস্ত অনুরোধ তৈরি করেছেন
+  successfully requested: সফলভাবে অনুরোধ করা হয়েছে
+  Order placed: অর্ডার স্থাপন করা হয়েছে।
+  Order placed Please wait for the library confirmation: অর্ডার স্থাপন করা হয়েছে। লাইব্রেরি নিশ্চিতকরণের জন্য অপেক্ষা করুন
+  Order Confirmed: অর্ডার সমর্থন করা হলো
+  Please make your payment: অনুগ্রহ করে আপনার অর্থপ্রদান করুন।
+  Ready to pickup: পাঠানোর জন্য প্রস্তুত
+  Your order is ready for pickup: আপনার অর্ডার পাঠানোর জন্য প্রস্তুত।
+  Order collected: অর্ডার সংগৃহীত।
+  Order rejected: অর্ডার প্রত্যাখ্যাত
+  Order was collected by delivery company: অর্ডার ডেলিভারি কোম্পানি দ্বারা সংগ্রহ করা হয়েছে
+  Order delivered: "অর্ডার প্রদান করা হয়েছে"
+  Order was delivered to the delivery company: "অর্ডারটি ডেলিভারি কোম্পানিতে পৌঁছে দেওয়া হয়েছে"
+  Order cancelled: "অর্ডার বাতিল করা হয়েছে"
+  You have successfully requested as Borrowed: "আপনি সফলভাবে ধার করা হিসাবে অনুরোধ করেছেন৷"
+  You have successfully requested as returned: "আপনি সফলভাবে প্রত্যাবর্তন হিসাবে অনুরোধ করেছেন"
+  You have successfully requested as lost: "আপনি হারিয়ে যাওয়া হিসাবে সফলভাবে অনুরোধ করেছেন৷"
+  You have successfully requested as Damaged Returned: "আপনি সফলভাবে ক্ষতিগ্রস্ত প্রত্যাবর্তন হিসাবে অনুরোধ করেছেন"
+  invoice: "চালান"
+  Please pay your due invoice amount: "অনুগ্রহ করে আপনার বকেয়া চালানের পরিমাণ পরিশোধ করুন"
+  Library Card Request Sent: "লাইব্রেরি কার্ডের অনুরোধ পাঠানো হয়েছে"
+  Your library card request has been sent to library please wait for the approval: "আপনার লাইব্রেরি কার্ডের অনুরোধ লাইব্রেরিতে পাঠানো হয়েছে। অনুগ্রহ করে অনুমোদনের জন্য অপেক্ষা করুন"
+  New card request: "নতুন কার্ডের অনুরোধ"
+  New card request to your library: "আপনার লাইব্রেরিতে নতুন কার্ডের অনুরোধ করা হয়েছে"
+  Card printed: "কার্ড মুদ্রিত।"
+  Card is printed: "কার্ড ছাপা হয়েছে।"
+  Request accepted: "অনুরোধ গৃহীত হয়েছে"
+  Your library card request has been accepted: "আপনার লাইব্রেরি কার্ডের অনুরোধ গৃহীত হয়েছে"
+  Request rejected: "অনুরোধ প্রত্যাখ্যাত"
+  Your library card request has been rejected: "আপনার লাইব্রেরি কার্ডের অনুরোধ প্রত্যাখ্যান করা হয়েছে"
+  Card pickup: "কার্ড সংগ্রহ"
+  Card is ready and ready for your pickup: "আপনার কার্ড পাঠানোর জন্য প্রস্তুত"
+  Card delivered: "কার্ড বিতরণ করা হয়েছে"
+  Card is on the way for delivery: "কার্ড বিতরণের পথে"
+  Request cancelled: "অনুরোধ বাতিল করা হয়েছে"
+  Card request is cancelled: "কার্ড অনুরোধ বাতিল করা হয়েছে"
+  Card is delivered: "কার্ড বিতরণ করা হয়েছে"
+  Card delivered to library: "কার্ড লাইব্রেরিতে বিতরণ করা হয়েছে"
+  Request hold: "অনুরোধ স্থগিত"
+  Card request is on hold: "কার্ডের অনুরোধ স্থগিত রাখা হয়েছে"
+  request sent to library: "অনুরোধ লাইব্রেরিতে পাঠানো হয়েছে।"
+  Your security money request has been sent to library please wait for the approval: "আপনার জামানত অর্থের অনুরোধ লাইব্রেরিতে পাঠানো হয়েছে। অনুগ্রহ করে অনুমোদনের জন্য অপেক্ষা করুন'"
+  Security money request approved: "জামানত অর্থের অনুরোধ অনুমোদিত"
+  Your security money request has been approved: "আপনার জামানত অর্থের অনুরোধ অনুমোদিত হয়েছে"
+  Your security money request has been rejected: "আপনার নিরাপত্তা অর্থের অনুরোধ প্রত্যাখ্যান করা হয়েছে"
+  Transfer Request Placed: "  Transfer Request Placed"
+  Your Book Transfer Request Placed please wait for the approval: ""
+  Transfer Request Approved: "Transfer Request Approved"
+  Your Book Transfer Request is Approved: "Your Book Transfer Request is Approved"
+  Book Transfer Request rejected: "Book Transfer Request rejected"
+  Your Book Transfer Request has been rejected: "Your Book Transfer Request has been rejected"
+  Book Transfer Request cancelled: "Book Transfer Request cancelled"
+  Your Book Transfer Request has been cancelled: "Your Book Transfer Request has been cancelled"
+  Requested book arrived: "Requested book arrived"
+  Your Book Transfer Request arrived to library: "Your Book Transfer Request arrived to library"
+  Book Demand Placed: "বইয়ের চাহিদা রাখা হয়েছে"
+  Book Demand Placed successfully: "বইয়ের চাহিদা সফলভাবে রাখা হয়েছে"
+  Gallery album requests: "Gallery album requests"
+  Request Placed To Add Gallery Album: "গ্যালারি অ্যালবাম যোগ করার জন্য অনুরোধ করা হয়েছে"
+  Account Deletion requests: "অ্যাকাউন্ট মুছে ফেলার অনুরোধ"
+  Submitted Account Deletion requests: "জমা দেওয়া অ্যাকাউন্ট মুছে ফেলার অনুরোধ"
+  Book Review: "বই পর্যালোচনা"
+  Submitted Book Review: "জমা দেওয়া বই পর্যালোচনা"
+  Local Event Is Created Successfully: "স্থানীয় ইভেন্ট সফলভাবে তৈরি করা হয়েছে"
+  Local Event Is Created: "স্থানীয় ইভেন্ট তৈরি করা হয়"
+  Your Membership Request Submitted: "আপনার সদস্যপদ অনুরোধ জমা"
+  Your have successfully Submitted membership: "আপনি সফলভাবে সদস্যতা জমা দিয়েছেন"
+  Your Membership Request Approved: "আপনার সদস্যপদ অনুরোধ অনুমোদিত"
+  Your membership request has been Approved, Please complete your payment process: "আপনার সদস্যপদ অনুরোধ অনুমোদিত হয়েছে, আপনার অর্থপ্রদান প্রক্রিয়া সম্পূর্ণ করুন"
+  Your Membership Request Rejected: "আপনার সদস্যপদ অনুরোধ প্রত্যাখ্যান"
+  Your membership Request Has Been Rejected: "আপনার সদস্যতার অনুরোধ প্রত্যাখ্যান করা হয়েছে"
+  Your Membership Request Require Correction: "আপনার সদস্যপদ অনুরোধ সংশোধন প্রয়োজন"
+  Your Membership Request Details Require Correction: "আপনার সদস্যতা অনুরোধ বিবরণ সংশোধন প্রয়োজন"
+  Membership Request Correction Submitted: "সদস্যপদ অনুরোধ সংশোধন জমা"
+  Your Membership Request Correction successfully Submitted: "আপনার সদস্যতা অনুরোধ সংশোধন সফলভাবে জমা দেওয়া হয়েছে"
+  Congratulation, Your Now Member: "অভিনন্দন, আপনার এখন সদস্য"
+  Congratulation, Your Membership Request Successfully Completed: "অভিনন্দন, আপনার সদস্যতার অনুরোধ সফলভাবে সম্পন্ন হয়েছে"
+  Membership Request Cancelled: "সদস্যপদ অনুরোধ বাতিল করা হয়েছে"
+  Membership Request Has Been Cancelled: "সদস্যপদ অনুরোধ বাতিল করা হয়েছে"
+  Event Started In Your Library: "আপনার লাইব্রেরিতে ইভেন্ট তৈরি করা হয়েছে"
+  Event Is Going live In Your Library: "ইভেন্ট আপনার লাইব্রেরিতে লাইভ হচ্ছে"
+  Global Event Is Started: "গ্লোবাল ইভেন্ট শুরু হয়েছে"
+  Global Event Is Started In All Library: "সমস্ত লাইব্রেরিতে গ্লোবাল ইভেন্ট শুরু হয়েছে"
+  Your Event Registration Request Submitted: "আপনার ইভেন্ট নিবন্ধন অনুরোধ জমা দেওয়া হয়েছে"
+  Your have successfully Submitted membership, your request need approval: "আপনি সফলভাবে সদস্যপদ জমা দিয়েছেন, আপনার অনুরোধ অনুমোদন প্রয়োজন"
+  Your Event Registration Approved: "আপনার ইভেন্ট নিবন্ধন অনুমোদিত"
+  Your event registration request has been Approved: "আপনার ইভেন্ট নিবন্ধন অনুরোধ অনুমোদিত হয়েছে"
+  Your Event Registration Request Rejected: "আপনার ইভেন্ট নিবন্ধন অনুরোধ প্রত্যাখ্যান করা হয়েছে"
+  Your event registration Request Has Been Rejected: "আপনার ইভেন্ট নিবন্ধন অনুরোধ প্রত্যাখ্যান করা হয়েছে"
+  Your Event Registration Request canceled: "আপনার ইভেন্ট নিবন্ধন অনুরোধ বাতিল করা হয়েছে"
+  Your Event Registration Successfully canceled: "আপনার ইভেন্ট নিবন্ধন সফলভাবে বাতিল করা হয়েছে"
+  The possible book availability date is %{date}: "সম্ভাব্য বই প্রাপ্তির তারিখ %{date}"
+  Possible date will be decided later: "সম্ভাব্য তারিখ পরবর্তীতে নির্বাচন করা হবে "
+  Return Order placed: "রিটার্ন অর্ডার দেওয়া হয়েছে"
+  Return Order placed Please wait for the delivery boy: "রিটার্ন অর্ডার দেওয়া হয়েছে অনুগ্রহ করে ডেলিভারি বয়ের জন্য অপেক্ষা করুন"
+

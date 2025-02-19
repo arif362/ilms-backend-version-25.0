@@ -1,0 +1,83 @@
+class CreateLmsReports < ActiveRecord::Migration[7.0]
+  def change
+    create_table :lms_reports do |t|
+      t.integer :library_id
+      t.datetime :month
+      t.integer :working_days
+      t.integer :biblio_bangla_last_month_total
+      t.integer :biblio_bangla_new_item
+      t.integer :biblio_bangla_total_item
+      t.integer :biblio_bangla_current_item
+      t.integer :biblio_english_last_month_total
+      t.integer :biblio_english_new_item
+      t.integer :biblio_english_total_item
+      t.integer :biblio_english_current_item
+      t.integer :biblio_other_last_month_total
+      t.integer :biblio_other_new_item
+      t.integer :biblio_other_total_item
+      t.integer :biblio_other_current_item
+      t.text :papers_bangla
+      t.text :papers_english
+      t.text :magazine_bangla
+      t.text :magazine_english
+      t.text :bind_paper_bangla
+      t.text :bind_paper_english
+      t.text :bind_magazine_bangla
+      t.text :bind_magazine_english
+      t.integer :mobile_library_reader_male
+      t.integer :mobile_library_reader_female
+      t.integer :mobile_library_reader_child
+      t.integer :mobile_library_reader_other
+      t.integer :book_reader_male
+      t.integer :book_reader_female
+      t.integer :book_reader_child
+      t.integer :book_reader_other
+      t.integer :paper_magazine_reader_male
+      t.integer :paper_magazine_reader_female
+      t.integer :paper_magazine_reader_child
+      t.integer :paper_magazine_reader_other
+      t.integer :reference_question_male
+      t.integer :reference_question_female
+      t.integer :reference_question_child
+      t.text :event_current_month
+      t.text :event_upcoming_2month
+      t.json :event
+      t.text :inspection_inspector_name
+      t.datetime :inspection_date
+      t.text :inspection_purpose
+      t.text :inspection_notes
+      t.integer :lending_system_male
+      t.integer :lending_system_female
+      t.integer :lending_system_child
+      t.integer :lending_system_issue_book
+      t.integer :lending_system_issue_book_return
+      t.text :lost_start_end_year
+      t.integer :lost_total_lost
+      t.text :lost_total_lost_in_text
+      t.float :lost_amount
+      t.text :discarded_lost_book_start_end_year
+      t.integer :discarded_lost_book_total_lost
+      t.text :discarded_lost_lost_total_lost_in_text
+      t.float :discarded_lost_amount
+      t.integer :burn_discarded_lost_book_total_burn
+      t.float :burn_discarded_lost_book_amount
+      t.text :pruned_book_start_end_year
+      t.float :pruned_book_total
+      t.text :pruned_book_total_in_text
+      t.float :pruned_book_amount
+      t.text :discarded_pruned_book_start_end_year
+      t.float :discarded_pruned_book_total
+      t.text :discarded_pruned_book_total_in_text
+      t.float :discarded_pruned_book_amount
+      t.text :staff_ids
+      t.text :present_main_staff_ids
+      t.json :edited_fields_default_values
+      t.bigint :created_by_id
+      t.bigint :updated_by_id
+      t.string :created_by_type
+      t.string :updated_by_type
+
+      t.timestamps
+    end
+  end
+end

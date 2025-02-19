@@ -1,0 +1,2 @@
+class Editor < Author
+end

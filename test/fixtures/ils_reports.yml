@@ -1,0 +1,7 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  biblio_bangla_last_month_total: 1
+
+two:
+  biblio_bangla_last_month_total: 1

@@ -1,0 +1,49 @@
+class AddNewColumnsToLmsReport < ActiveRecord::Migration[7.0]
+  def change
+    add_column :lms_reports, :biblio_bangla_lost_total, :integer
+    add_column :lms_reports, :biblio_bangla_discarded_total, :integer
+    add_column :lms_reports, :biblio_english_lost_total, :integer
+    add_column :lms_reports, :biblio_english_discarded_total, :integer
+    add_column :lms_reports, :biblio_other_lost_total, :integer
+    add_column :lms_reports, :biblio_other_discarded_total, :integer
+    add_column :lms_reports, :land_record, :boolean
+    add_column :lms_reports, :library_building, :string
+    add_column :lms_reports, :library_area, :float
+    add_column :lms_reports, :library_room, :integer
+    add_column :lms_reports, :library_land_comment, :string
+    add_column :lms_reports, :computer_active, :integer
+    add_column :lms_reports, :computer_inactive, :integer
+    add_column :lms_reports, :computer_server_active, :integer
+    add_column :lms_reports, :computer_server_inactive, :integer
+    add_column :lms_reports, :printer_bw_active, :integer
+    add_column :lms_reports, :printer_bw_inactive, :integer
+    add_column :lms_reports, :printer_color_active, :integer
+    add_column :lms_reports, :printer_color_inactive, :integer
+    add_column :lms_reports, :scanner_active, :integer
+    add_column :lms_reports, :scanner_inactive, :integer
+    add_column :lms_reports, :cc_camera_active, :integer
+    add_column :lms_reports, :cc_camera_inactive, :integer
+    add_column :lms_reports, :photocopier_active, :integer
+    add_column :lms_reports, :photocopier_inactive, :integer
+    add_column :lms_reports, :device_remarks, :string
+    add_column :lms_reports, :office_telephone_exist, :boolean
+    add_column :lms_reports, :quantity_of_office_telephone, :integer
+    add_column :lms_reports, :accommodation_telephone_exist, :boolean
+    add_column :lms_reports, :quantity_of_accommodation_telephone, :integer
+    add_column :lms_reports, :fax_exist, :boolean
+    add_column :lms_reports, :quantity_of_fax, :integer
+    add_column :lms_reports, :transport_exist, :boolean
+    add_column :lms_reports, :quantity_of_transport, :integer
+    add_column :lms_reports, :connection_remarks, :string
+    add_column :lms_reports, :photocopy_use_office, :boolean
+    add_column :lms_reports, :photocopy_use_user, :boolean
+    add_column :lms_reports, :internet_connect, :boolean
+    add_column :lms_reports, :internet_speed, :string
+    add_column :lms_reports, :solar_system, :boolean
+    add_column :lms_reports, :solar_system_active, :integer
+    add_column :lms_reports, :solar_system_inactive, :integer
+    add_column :lms_reports, :ict_equipment_comment, :string
+    add_column :lms_reports, :non_govt_library, :integer
+    add_column :lms_reports, :development_project, :text
+  end
+end

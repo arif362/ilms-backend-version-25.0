@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  library_transfer_order_id: 1
+  biblio_id: 1
+  biblio_item_id: 1
+  price: 1
+  quantity: 1
+
+two:
+  library_transfer_order_id: 1
+  biblio_id: 1
+  biblio_item_id: 1
+  price: 1
+  quantity: 1

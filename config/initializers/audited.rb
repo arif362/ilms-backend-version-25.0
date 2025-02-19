@@ -1,0 +1,1 @@
+Audited.max_audits = 50 # keep only 10 latest audits
